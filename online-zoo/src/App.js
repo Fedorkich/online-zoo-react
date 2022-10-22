@@ -1,24 +1,10 @@
 import './App.css';
+import Header from './Components/Header/Header';
 
 function App() {
   return (
     <div className="App">
-      <header className="header">
-        <div className="containerSite">
-          <div className="headerLogo">
-            zoo online
-          </div>
-          <nav>
-            <a href="#">About</a>
-            <a href="#">Zoos</a>
-            <a href="#">Map</a>
-            <a href="#">Contact</a>
-          </nav>
-          <div className="headerContainerButton">
-            Switch
-          </div>
-        </div>
-      </header>
+      <Header />
       <section className="section1Watch">
         <div className="containerSite">
           <div className="containerWatchOnline">  </div>
